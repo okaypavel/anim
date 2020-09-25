@@ -1,0 +1,63 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /* overflow: hidden;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box; */
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+.main-border {
+    border: 2px solid black;
+    overflow: hidden;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.ups:hover {
+    animation-name: przyblizanie;
+    animation-duration: 2000ms;
+}
+@keyframes przyblizanie {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+.lool:hover {
+    animation-name: lool;
+    animation-duration: 2000ms;
+}
+@keyframes lool {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes qqq {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+        transform: scale(0.05)
+    }
+}
+
+.qqq:hover {
+    animation-name: qqq;
+    animation-duration: 2000ms;
+}
